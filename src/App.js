@@ -34,12 +34,16 @@ function App() {
         <h1>🌹Community🪻</h1>
         <SignOut />
       </header>
-
+      <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     </div>
       <section>
         {user ? <ChatRoom /> : <SignIn />}
       </section>
-
     </div>
+    
   );
 }
 
